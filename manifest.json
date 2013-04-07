@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bootstrap Prettify",
+  "description": "This extension makes all Bootstrap-powered sites prettier.",
+  "version": "1.0",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["bootstrap_prettify.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "web_accessible_resources": ["bootstrap.geocities.css"]
+}
