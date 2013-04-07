@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Bootstrap Prettify",
-  "description": "This extension makes all Bootstrap-powered sites prettier.",
+  "description": "Bootstrap Prettify overrides bootstrap on any site with its \"Geocities\"-theme.",
   "version": "1.0",
   
   "content_scripts": [
